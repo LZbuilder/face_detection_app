@@ -9,7 +9,7 @@ function startVideo () {
 }
 
 const loadLabels = () => {
-  const labels = ['Kerim','Thor']
+  const labels = ['Alexander Arens', 'Grace Satterwhite', 'Luka Zivaljevic']
   return Promise.all(labels.map(async label => {
       const descriptions = []
       for (let i = 1; i <= 5; i++) {
